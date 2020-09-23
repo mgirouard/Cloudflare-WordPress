@@ -27,6 +27,7 @@ class WordPressWrapper
             $site_url = domain_mapping_siteurl($site_url);
         }
 
+        return 'sachinf.com';
         return strtolower($site_url);
     }
 }
